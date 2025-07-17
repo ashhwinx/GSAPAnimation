@@ -7,6 +7,14 @@ import NextGenAnimations from './AnimationDeep/NextGenAnimations'
 import UltraAnimations from './AnimationDeep/UltraAnimations'
 import TextDragAnimation from './Components/TextDragAnimation'
 import HorizontalGallery from './Components/HorizontalGallery'
+import ScrollAnimation from './Components/ScrollAnimation'
+import BouncyFooter from './Components/BouncyFooter'
+import MouseMoving from './Components/MouseMoving'
+// import BeeScrollAnimation from './Components/BeeScrollAnimations'
+import ScrollTriggerDemo from './Components/ScrollTriggerDemo'
+import DraggableFollowers from './DragableComponents/DraggableFollowers'
+import FoldEffect from './Components/FoldEffect'
+import KeyholeAnimation from './DragableComponents/KeyholeAnimation'
 
 
 function App() {
@@ -16,14 +24,21 @@ function App() {
     <>
     {/* <GsapAnimations/>
     <MoreGsapAnimations/>
-   
     <SmoothGsapAnimations/>
     <PremiumAnimations/>
-    <NextGenAnimations/> */}
-    {/* <UltraAnimations/> */}
+    <NextGenAnimations/>
+    <UltraAnimations/> */}
+    {/* <HorizontalGallery/> */}
+    {/* <ScrollAnimation/> */}
     {/* <TextDragAnimation /> */}
-    <HorizontalGallery/>
-   
+    {/* <BeeScrollAnimation/> */}
+    {/* <MouseMoving/> */}
+    {/* <BouncyFooter/> */}
+    {/* <ScrollTriggerDemo/> */}
+
+    {/* <DraggableFollowers/> */}
+    {/* <FoldEffect/> */}
+    <KeyholeAnimation/>
     
     </>
   )
